@@ -12,7 +12,6 @@ class Colague11 {
 		Scanner keyboard = new Scanner(System.in);
 		String userInput = null;
 
-
 		while (!isNumeric(userInput)) {
 			
 			System.out.print("Enter a number to square: ");
@@ -23,10 +22,7 @@ class Colague11 {
 		}
 
 		int square = (int) Math.pow(Integer.parseInt(userInput), 2);
-		System.out.printf("Your number squared is %d. Better %d than %d.%n", square, square, square-1);
-
-
-		
+		System.out.printf("Your number squared is %d. Better %d than %d.%n", square, square, square-1);	
 
 	}
 
