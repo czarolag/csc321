@@ -31,7 +31,7 @@ class Colague11 {
 	}
 
 	/*
-	 * Method checks if the input is a valid Double
+	 * Method checks if the input is a valid numeric
 	 */
 	static public boolean isNumeric(String input) {
 		
